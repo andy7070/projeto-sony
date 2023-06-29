@@ -18,10 +18,10 @@
 
 }
 header{
-    background-image: linear-gradient(to bottom, #8f6cba, #5A4084);
-    background-image: url(../Playstation-Wallpaper-19-1920x1080.webp);
+    background-image: linear-gradient(to bottom, #0040d1, #004098);
+    background-image: url(../Sony-Logo-650x366.png);
     background-size: 590px;
-    background-repeat:round;
+    background-repeat:no-repeat;
     position: 20px;
     width: 100vw;
     height:  280px;
@@ -31,7 +31,7 @@ header{
  }
  header > img {
 display: flex;
-justify-content: center;
+justify-content: space-between;
     
  }
 
@@ -46,7 +46,7 @@ header  h1 {
 header  p {
     text-align: center;
     padding: 50px;
-    padding-top: 7%;
+    padding-top: 4%;
     color: white;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
     line-height: 2rem;
