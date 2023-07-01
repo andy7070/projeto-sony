@@ -84,6 +84,9 @@ ul{
 ul .mover{
     transition: 0.4s;
 }
+ul li.ativo{
+    background-color: #FF0077;
+}
 ul li.mover:hover{
     background-color: #FF0077;
 }
