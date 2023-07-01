@@ -54,9 +54,12 @@ header  p {
     margin: auto;
 }
 nav{
+    display: border-box;
    background-color: #044880;
-    display: flex;
-    justify-content: flex-end;
+    width: 300px;
+    height: 100%;
+    padding: 40px;
+    margin-bottom: 10px;
 }
 nav > a{
     background-image: linear-gradient(to right, #004075);
@@ -72,6 +75,28 @@ nav > a{
 nav > a:hover{
     background-color: #8f6cba;
     text-decoration: underline;
+}
+div.expandir > i{
+    color: #fff;
+    padding-bottom: 40px 0 40px 0;
+    cursor: pointer;
+    font-size: 2rem;
+   
+
+}
+div.expandir{
+    padding-bottom: 40px;
+}
+ul{
+    width:300px;
+    list-style: none;
+}
+.texto {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
 }
 main {
     border: 5px solid #8f6cba;
