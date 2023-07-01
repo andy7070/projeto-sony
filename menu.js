@@ -14,3 +14,10 @@ function selectLink(){
 menuItem.forEach((item)=>
    item.addEventListener('click', selectLink)
 )
+
+const exp = document.querySelector('#exp')
+const menu = document.querySelector('.menu-lateral')
+
+exp.addEventListener('click', function(){
+    menu.classList.toggle('expandir')
+})
