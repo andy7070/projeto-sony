@@ -19,14 +19,18 @@
    
 
 }
+header  img {
+  height: 100px;
+}
 
 
  header{
     background-image: linear-gradient(to bottom, #0040d1, #004098);
     text-align: center;
     width: 100vw;
-    height:  250px;
+    height:  400px;
     padding-top: 50px;
+
  }
  body{
     background-image: linear-gradient(to bottom, #0040d1, #004098);
