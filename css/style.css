@@ -328,7 +328,7 @@ picture > img {
         background-repeat: no-repeat;
         text-align: center;
         width: 100vw;
-        height:  350px;
+        height:  300px;
         padding-top: 50px;
      }
 
@@ -360,7 +360,7 @@ picture > img {
         height: 50px;
      }
      header p {
-        font-size: 0.95rem;
+        font-size: 0.80rem;
      }
 
     main {    
