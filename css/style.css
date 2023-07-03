@@ -331,9 +331,6 @@ picture > img {
         height:  300px;
         padding-top: 50px;
      }
-     nav.menu-lateral{
-      display: none;
-     }
    
      .parte1{
         margin: 15px 15px;
@@ -361,5 +358,76 @@ picture > img {
      header img {
         height: 50px;
      }
- }
- 
+
+    main {    
+        border: 5px solid #8f6cba;
+        max-width: 900px;
+        min-width: 300px;
+        padding-top: 100px;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 0px 0px 20px 20px;
+    }
+    nav.menu-lateral{
+       position: absolute;
+        width: 60px;
+        height: 100%;
+        background-color: transparent ;
+        padding: 40px 0 40px  1%;
+        box-shadow: 3px 0 0 transparent;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    nav.menu-lateral.expandir{
+        width: 300px;
+    }
+    nav.menu-lateral.expandir  .texto{
+        margin-left: 70px;
+        opacity: 20;
+    
+    }
+    div.expandir{
+        width: 100%;
+        padding-left: 10px;
+    }
+    div.expandir > i{
+        color: red;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    ul{
+        height: 30%;
+        list-style-type: none;
+    }
+    ul .mover{
+        transition: 0.4s;
+    }
+    ul li.ativo{
+       display: none;
+    }
+    ul li.mover:hover{
+        background-color: black;
+    }
+    ul li.mover a {
+        color: red;
+        text-decoration: none;
+        font-size: 10px;
+        padding: 20px 4%;
+        display: flex;
+        margin-bottom: 10px;
+        line-height: 30px;
+    
+    }
+    ul  li.mover a .texto{
+        margin-left: 40px;
+        transition: 1s;
+        opacity: 0;
+    }
+    ul li.mover a .icon{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+        
+    }
+    
+     
