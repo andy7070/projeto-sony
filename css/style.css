@@ -356,7 +356,10 @@ picture > img {
     
    
      header img {
-        height: 30px;
+        height: 50px;
+     }
+     header p {
+        font-size: 0.95rem;
      }
 
     main {    
