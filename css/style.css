@@ -331,11 +331,10 @@ picture > img {
         height:  300px;
         padding-top: 50px;
      }
-     nav{
-        display: none;
+     nav.menu-lateral{
+      display: none;
      }
-     main{
-     }
+   
      .parte1{
         margin: 15px 15px;
      }
@@ -358,5 +357,9 @@ picture > img {
         margin: 15px 15px;
      }
     
+   
+     header img {
+        height: 50px;
+     }
  }
  
