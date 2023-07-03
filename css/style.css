@@ -129,6 +129,7 @@ main {
     border-radius: 0px 0px 20px 20px;
 }
 
+
 .parte1{
     text-align: center;
     min-width: 300px;
@@ -373,7 +374,8 @@ picture > img {
         font-size: 0.65rem;
      }
 
-    main {    
+    
+    main {
         border: 5px solid #8f6cba;
         max-width: 900px;
         min-width: 300px;
