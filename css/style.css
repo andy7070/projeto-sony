@@ -35,11 +35,10 @@ header  img {
  }
 
  body{
-   background: #202020;
- }
- body::after, body::before{
-    background-image: url();
- }
+   background:  #202020;
+
+}
+
 
 header  h1 {
     text-align: center;
@@ -129,6 +128,7 @@ main {
     background-color: #fff;
     border-radius: 0px 0px 20px 20px;
 }
+
 .parte1{
     text-align: center;
     min-width: 300px;
