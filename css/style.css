@@ -324,7 +324,7 @@ picture > img {
 
     header{  
         background: url(../GOWRagkratosart1.jpg);
-        background-size:contain;
+        background-size:cover;
         background-repeat: no-repeat;
         text-align: center;
         width: 100vw;
@@ -360,7 +360,7 @@ picture > img {
         height: 50px;
      }
      header p {
-        font-size: 0.80rem;
+        font-size: 0.60rem;
      }
 
     main {    
