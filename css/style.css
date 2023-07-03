@@ -36,7 +36,9 @@ header  img {
 
  body{
    background: #202020;
-    animation: animado 5s infinite alternate;
+ }
+ body::after, body::before{
+    background-image: url();
  }
 
 header  h1 {
@@ -121,15 +123,12 @@ ul li.mover a .icon{
 
 main {    
     border: 5px solid #8f6cba;
-    max-width: 900px;
+    max-width: 1080px;
     min-width: 300px;
     margin: auto;
     background-color: #fff;
     border-radius: 0px 0px 20px 20px;
-    
-    
 }
-
 .parte1{
     text-align: center;
     min-width: 300px;
