@@ -324,13 +324,14 @@ picture > img {
 
     header{  
         background: url(../GOWRagkratosart1.jpg);
-        background-size:cover;
+        background-size:contain;
         background-repeat: no-repeat;
         text-align: center;
         width: 100vw;
-        height:  300px;
+        height:  350px;
         padding-top: 50px;
      }
+
    
      .parte1{
         margin: 15px 15px;
@@ -353,8 +354,8 @@ picture > img {
      .parte7{
         margin: 15px 15px;
      }
-    
-   
+     
+     
      header img {
         height: 50px;
      }
