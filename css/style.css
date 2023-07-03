@@ -335,7 +335,27 @@ picture > img {
         display: none;
      }
      main{
-
+     }
+     .parte1{
+        margin: 15px 15px;
+     }
+     .parte2{
+        margin: 15px 15px;
+     }
+     .parte3{
+        margin: 15px 15px;
+     }
+     .parte4{
+        margin: 15px 15px;
+     }
+     .parte5{
+        margin: 15px 15px;
+     }
+     .parte6{
+        margin: 15px 15px;
+     }
+     .parte7{
+        margin: 15px 15px;
      }
     
  }
