@@ -32,11 +32,19 @@ header  img {
     width: 100vw;
     height:  420px;
     padding-top: 50px;
-
  }
 
  body{
-    background: #202020;
+    background-image: linear-gradient(to bottom, blue, pink, yellowgreen);
+    animation: animado 5s infinite alternate;
+ }
+ @keyframes animado {
+    0%{
+        background-position-y: 0%;
+    }
+    100%{
+        background-position-y: 100%;
+    }
  }
 
 header  h1 {
@@ -319,3 +327,4 @@ picture > img {
  a.externo::after{
     content: "\1f517";
  }
+
