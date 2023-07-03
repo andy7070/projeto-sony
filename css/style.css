@@ -320,4 +320,23 @@ picture > img {
     content: "\1f517";
  }
 
+ @media  screen and (max-width: 668px) {
+
+    header{  
+        background: url(../GOWRagkratosart1.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        width: 100vw;
+        height:  300px;
+        padding-top: 50px;
+     }
+     nav{
+        display: none;
+     }
+     main{
+
+     }
+    
+ }
  
