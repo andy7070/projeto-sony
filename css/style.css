@@ -38,14 +38,6 @@ header  img {
    background: #202020;
     animation: animado 5s infinite alternate;
  }
- @keyframes animado {
-    0%{
-        background-position-y: 0%;
-    }
-    100%{
-        background-position-y: 100%;
-    }
- }
 
 header  h1 {
     text-align: center;
@@ -328,3 +320,4 @@ picture > img {
     content: "\1f517";
  }
 
+ 
