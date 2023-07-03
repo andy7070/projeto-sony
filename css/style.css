@@ -331,6 +331,17 @@ picture > img {
         height:  300px;
         padding-top: 50px;
      }
+     picture > img {
+        display: flex;
+        padding-left: 50px;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 20px 20px 20px;
+        margin-top: 20PX;
+        margin-bottom: 20PX;
+        width: 70%;
+          
+     }
 
    
      .parte1{
@@ -444,6 +455,17 @@ picture > img {
                 width: 100vw;
                 height:  300px;
                 padding-top: 50px;
+             }
+             picture > img {
+                display: flex;
+                padding-left: 50px;
+                justify-content: center;
+                align-items: center;
+                margin: 20px 20px 20px 20px;
+                margin-top: 20PX;
+                margin-bottom: 20PX;
+                width: 70%;
+                  
              }
         
            
