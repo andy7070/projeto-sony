@@ -21,3 +21,4 @@ const menu = document.querySelector('.menu-lateral')
 exp.addEventListener('click', function(){
     menu.classList.toggle('expandir')
 })
+
