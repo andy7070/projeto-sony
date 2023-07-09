@@ -295,10 +295,7 @@ strong.mistura1{
     color: cadetblue;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
 }
-#card2 img{
-    margin-top: 20px;
-    width: 100vh;
-}
+
 #card{
     display: flex;
     align-items: center;
@@ -338,6 +335,9 @@ strong.mistura1{
 }
 #front3{
     transform: rotateY(180deg);
+}
+#front4{
+  transform: rotateY(180deg);
 }
 
 .flip {
