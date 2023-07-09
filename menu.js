@@ -26,5 +26,9 @@ const card = document.querySelector('#card')
 card.addEventListener('click', (e)=>{
 card.classList.toggle('flip')
 })
+const card2 = document.querySelector('#card2')
+card2.addEventListener('click', ()=>{
+    card2.classList.toggle('flip')
+})
 
 

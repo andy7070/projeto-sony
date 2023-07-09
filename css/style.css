@@ -312,7 +312,18 @@ picture > img {
     transform-style: preserve-3d;
     transition: 0.9s;
 }
+#card2{
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: 0.9s;
+}
 .face{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.face2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -320,9 +331,10 @@ picture > img {
 #front{
     transform: rotateY(180deg);
 }
-#back{
-    
+#front2{
+    transform: rotateY(180deg);
 }
+
 .flip {
     transform: rotateY(180deg);
 }
@@ -364,8 +376,14 @@ picture > img {
      .frente{
         width: 190px;
      }
+     .frente2{
+        width: 100px;
+     }
      .tras {
         width: 200px;
+     }
+     .tras2 {
+        width: 100px;
      }
 
    
