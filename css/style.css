@@ -321,6 +321,12 @@ strong.mistura1{
     transform-style: preserve-3d;
     transition: 0.9s;
 }
+#card5{
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: 0.9s;
+}
 .face{
     display: flex;
     align-items: center;
@@ -339,6 +345,9 @@ strong.mistura1{
 #front4{
   transform: rotateY(180deg);
 }
+#front5{
+    transform: rotateY(180deg);
+  }
 
 .flip {
     transform: rotateY(180deg);
