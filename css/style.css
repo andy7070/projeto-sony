@@ -327,6 +327,18 @@ strong.mistura1{
     transform-style: preserve-3d;
     transition: 0.9s;
 }
+#card6{
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: 0.9s;
+}
+#card7{
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: 0.9s;
+}
 .face{
     display: flex;
     align-items: center;
@@ -346,6 +358,12 @@ strong.mistura1{
   transform: rotateY(180deg);
 }
 #front5{
+    transform: rotateY(180deg);
+  }
+  #front6{
+    transform: rotateY(180deg);
+  }
+  #front7{
     transform: rotateY(180deg);
   }
 
@@ -390,6 +408,9 @@ strong.mistura1{
      .frente{
         width: 180px;
      }
+     .frente3{
+        width: 300px;
+     }
     
      .tras {
         width: 180px;
@@ -397,7 +418,6 @@ strong.mistura1{
      .tras2 {
         width: 130px;
      }
-
    
      .parte1{
         margin: 15px 15px;
