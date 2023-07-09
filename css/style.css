@@ -60,9 +60,9 @@ header  p {
 nav.menu-lateral{
     width: 60px;
     height: 100%;
-    background-color: #004075 ;
+    background-color: transparent;
     padding: 40px 0 40px  1%;
-    box-shadow: 3px 0 0 #FF0077;
+    box-shadow: 3px 0 0 transparent;
     position: fixed;
     top: 0;
     left: 0;
@@ -362,7 +362,7 @@ picture > img {
           
      }
      .frente{
-        width: 200px;
+        width: 190px;
      }
      .tras {
         width: 200px;
