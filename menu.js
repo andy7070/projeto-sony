@@ -22,3 +22,9 @@ exp.addEventListener('click', function(){
     menu.classList.toggle('expandir')
 })
 
+const card = document.querySelector('#card')
+card.addEventListener('click', (e)=>{
+card.classList.toggle('flip')
+})
+
+

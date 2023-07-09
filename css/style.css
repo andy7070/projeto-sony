@@ -306,6 +306,26 @@ picture > img {
    width: 70%;
      
 }
+#card{
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: 0.9s;
+}
+.face{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#front{
+    transform: rotateY(180deg);
+}
+#back{
+    
+}
+.flip {
+    transform: rotateY(180deg);
+}
 
  a {
     text-decoration: none;
@@ -339,8 +359,13 @@ picture > img {
         margin: 20px 20px 20px 20px;
         margin-top: 20PX;
         margin-bottom: 20PX;
-        width: 100%;
           
+     }
+     .frente{
+        width: 220px;
+     }
+     .tras {
+        width: 220px;
      }
 
    
@@ -378,7 +403,7 @@ picture > img {
     main {
         border: 5px solid #8f6cba;
         max-width: 900px;
-        min-width: 300px;
+        min-width: 500px;
         padding-top: 100px;
         margin: auto;
         background-color: #fff;
