@@ -297,9 +297,11 @@ strong.mistura1{
 }
 #card2 img{
     margin-top: 20px;
+    width: 100vh;
 }
 #card{
     display: flex;
+    align-items: center;
     justify-content: center;
     transform-style: preserve-3d;
     transition: 0.9s;
@@ -311,6 +313,12 @@ strong.mistura1{
     transition: 0.9s;
 }
 #card3{
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: 0.9s;
+}
+#card4{
     display: flex;
     justify-content: center;
     transform-style: preserve-3d;
