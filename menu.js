@@ -51,4 +51,6 @@ card7.addEventListener('click', ()=>{
     card7.classList.toggle('flip')
 })
 
+const imgs = document.querySelector('#card')
+
 

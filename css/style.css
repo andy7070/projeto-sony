@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 
-/* root{
+ root{
     --cor0: #8F6CBA;
     --cor1: #8163B2;
     --cor2: #5A4084;
     --cor3: #5A3986;
     --cor4: #54397E;
-
-} */
-
+    --cor5: linear-gradient(to right,#ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,#ffff00, #00ff00, #0099ff, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
+    
+ }
 *{
     margin: 0px;
     padding: 0px;
@@ -26,6 +26,7 @@ header  img {
 
  header{  
     background: url(../GOWRagkratosart1.jpg);
+    object-fit: cover;
     background-size:contain;
     background-repeat: repeat-x;
     text-align: center;
@@ -301,13 +302,17 @@ strong.mistura1{
     align-items: center;
     justify-content: center;
     transform-style: preserve-3d;
+    margin: 30px;
     transition: 0.9s;
+    
 }
+
 #card2{
     display: flex;
     justify-content: center;
     transform-style: preserve-3d;
     transition: 0.9s;
+    margin: 30px;
 }
 #card3{
     display: flex;
@@ -339,36 +344,56 @@ strong.mistura1{
     transform-style: preserve-3d;
     transition: 0.9s;
 }
+
+.frente{
+    width: 90%;
+    animation: anima 5s alternate-reverse infinite;
+}
+.tras{
+    width: 90%;
+    animation: anima2 5s alternate-reverse infinite;
+}
+@keyframes anima {
+    0%{
+       
+        transform: translate(0px);
+
+        
+    }
+    100%{
+        transform: translateY(30px);
+        
+    }
+}
+@keyframes anima2 {
+    0%{
+        transform: skew(0deg);
+    }
+    100% {
+        transform: skew(10deg);
+    }
+    
+}
+
 .face{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#front{
-    transform: rotateY(180deg);
+.frente2{
+    width: 60%;
+    animation: anima 5s alternate infinite;
 }
-#front2{
-    transform: rotateY(180deg);
+
+.tras2{
+    animation: anima2 5s alternate infinite;
+    width: 70%;
 }
-#front3{
-    transform: rotateY(180deg);
-}
-#front4{
-  transform: rotateY(180deg);
-}
-#front5{
-    transform: rotateY(180deg);
-  }
-  #front6{
-    transform: rotateY(180deg);
-  }
-  #front7{
-    transform: rotateY(180deg);
-  }
 
 .flip {
-    transform: rotateY(180deg);
+   transform: rotateY(180deg);
+
 }
 
  a {
