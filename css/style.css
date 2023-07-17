@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
- root{
+ *root{
     --cor0: #8F6CBA;
     --cor1: #8163B2;
     --cor2: #5A4084;
@@ -319,76 +319,55 @@ strong.mistura1{
     justify-content: center;
     transform-style: preserve-3d;
     transition: 0.9s;
+    margin: 30px;
 }
 #card4{
     display: flex;
     justify-content: center;
     transform-style: preserve-3d;
     transition: 0.9s;
+    margin: 30px;
 }
 #card5{
     display: flex;
     justify-content: center;
     transform-style: preserve-3d;
     transition: 0.9s;
+    margin: 30px;
 }
 #card6{
     display: flex;
     justify-content: center;
     transform-style: preserve-3d;
     transition: 0.9s;
+    margin: 30px;
 }
 #card7{
     display: flex;
     justify-content: center;
     transform-style: preserve-3d;
     transition: 0.9s;
+    margin: 30px;
 }
 
 .frente{
-    width: 90%;
-    animation: anima 5s alternate-reverse infinite;
+    
+    width: 70%;
+  
+}
+.frente5{
+
+  width: 70%;
 }
 .tras{
-    width: 90%;
-    animation: anima2 5s alternate-reverse infinite;
+    width: 70%;
 }
-@keyframes anima {
-    0%{
-       
-        transform: translate(0px);
 
-        
-    }
-    100%{
-        transform: translateY(30px);
-        
-    }
-}
-@keyframes anima2 {
-    0%{
-        transform: skew(0deg);
-    }
-    100% {
-        transform: skew(10deg);
-    }
-    
-}
 
 .face{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.frente2{
-    width: 60%;
-    animation: anima 5s alternate infinite;
-}
-
-.tras2{
-    animation: anima2 5s alternate infinite;
-    width: 70%;
 }
 
 .flip {
